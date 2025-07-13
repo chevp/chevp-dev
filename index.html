@@ -18,9 +18,13 @@
       border-collapse: collapse;
       margin-top: 1rem;
     }
-    td {
+    th, td {
       border: 1px solid #333;
       padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #1e1e1e;
     }
     tr:nth-child(even) {
       background-color: #1e1e1e;
@@ -42,37 +46,35 @@
 <body>
 
   <h1>chevp-dev</h1>
-  <p>This page lists tools used in my personal development environment on <strong>Windows 11</strong>.  
-     Each entry includes a homepage link and a direct download link to the latest version.</p>
+  <p>This page lists tools used in my personal development environment for <strong>Windows 11</strong>.  
+     Each row links to the homepage and provides a direct download for the latest version.</p>
 
   <table>
+    <thead>
+      <tr>
+        <th>Program</th>
+        <th>Direct Download</th>
+      </tr>
+    </thead>
     <tbody>
-      <!-- Python -->
       <tr>
-        <td><strong>Python</strong> — <a href="https://www.python.org/" target="_blank">Visit Homepage</a></td>
+        <td><strong>Python</strong> — <a href="https://www.python.org/" target="_blank">python.org</a></td>
+        <td><a href="https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe" target="_blank">Download 3.13.5 (Win64)</a></td>
       </tr>
       <tr>
-        <td><a href="https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe" target="_blank">Download Python 3.13.5 (Windows 64-bit)</a></td>
+        <td><strong>Blender</strong> — <a href="https://www.blender.org/" target="_blank">blender.org</a></td>
+        <td><a href="https://www.blender.org/download/release/Blender4.4/blender-4.4.3-windows-x64.msi/" target="_blank">Download 4.4.3 (Win64)</a></td>
       </tr>
-
-      <!-- Blender -->
-      <tr>
-        <td><strong>Blender</strong> — <a href="https://www.blender.org/" target="_blank">Visit Homepage</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://www.blender.org/download/release/Blender4.4/blender-4.4.3-windows-x64.msi/" target="_blank">Download Blender 4.4.3 (Windows 64-bit)</a></td>
-      </tr>
-
-      <!-- Add more entries below -->
+      <!-- Add more tools below as needed -->
     </tbody>
   </table>
 
   <div class="disclaimer">
     <p><strong>Disclaimer:</strong>  
     All product names, logos, and brands are property of their respective owners.  
-    This site is for personal reference only. All download links point to official sources.  
-    Please respect software licenses and usage terms.  
-    Compatibility and versions listed here target <strong>Windows 11</strong>.</p>
+    This site is for personal reference only and does not host any files.  
+    All download links point to official sources. Please check licensing terms.  
+    Target platform: <strong>Windows 11</strong>.</p>
   </div>
 
 </body>
