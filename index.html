@@ -6,27 +6,27 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
       margin: 2rem;
-      background-color: #f9f9f9;
     }
     h1 {
-      color: #333;
+      color: #ffffff;
     }
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
     }
-    th, td {
-      border: 1px solid #ccc;
+    td {
+      border: 1px solid #333;
       padding: 0.75rem;
-      text-align: left;
     }
-    th {
-      background-color: #eee;
+    tr:nth-child(even) {
+      background-color: #1e1e1e;
     }
     a {
-      color: #0066cc;
+      color: #90caf9;
       text-decoration: none;
     }
     a:hover {
@@ -35,42 +35,44 @@
     .disclaimer {
       margin-top: 2rem;
       font-size: 0.9rem;
-      color: #666;
+      color: #aaaaaa;
     }
   </style>
 </head>
 <body>
 
   <h1>chevp-dev</h1>
-  <p>This page contains a list of tools and applications used in my personal development environment. It includes official homepage links and direct download links to the latest versions, where available.</p>
+  <p>This page lists tools used in my personal development environment on <strong>Windows 11</strong>.  
+     Each entry includes a homepage link and a direct download link to the latest version.</p>
 
   <table>
-    <thead>
-      <tr>
-        <th>Program</th>
-        <th>Homepage</th>
-        <th>Download Latest</th>
-      </tr>
-    </thead>
     <tbody>
+      <!-- Python -->
       <tr>
-        <td>Python</td>
-        <td><a href="https://www.python.org/" target="_blank">python.org</a></td>
-        <td><a href="https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe" target="_blank">Download 3.13.5</a></td>
+        <td><strong>Python</strong> — <a href="https://www.python.org/" target="_blank">Visit Homepage</a></td>
       </tr>
       <tr>
-        <td>Blender</td>
-        <td><a href="https://www.blender.org/" target="_blank">blender.org</a></td>
-        <td><a href="https://www.blender.org/download/release/Blender4.4/blender-4.4.3-windows-x64.msi/" target="_blank">Download 4.4.3</a></td>
+        <td><a href="https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe" target="_blank">Download Python 3.13.5 (Windows 64-bit)</a></td>
       </tr>
-      <!-- Add more programs here -->
+
+      <!-- Blender -->
+      <tr>
+        <td><strong>Blender</strong> — <a href="https://www.blender.org/" target="_blank">Visit Homepage</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.blender.org/download/release/Blender4.4/blender-4.4.3-windows-x64.msi/" target="_blank">Download Blender 4.4.3 (Windows 64-bit)</a></td>
+      </tr>
+
+      <!-- Add more entries below -->
     </tbody>
   </table>
 
   <div class="disclaimer">
-    <p><strong>Disclaimer:</strong> All product names, logos, and brands are property of their respective owners.  
-    This page is for personal reference only and does not host or redistribute any files directly.  
-    Download links point to official sources. Please refer to each software’s licensing and usage terms before installation.</p>
+    <p><strong>Disclaimer:</strong>  
+    All product names, logos, and brands are property of their respective owners.  
+    This site is for personal reference only. All download links point to official sources.  
+    Please respect software licenses and usage terms.  
+    Compatibility and versions listed here target <strong>Windows 11</strong>.</p>
   </div>
 
 </body>
